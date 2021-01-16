@@ -1,0 +1,25 @@
+package com.project.kingthejoy.controller;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.project.kingthejoy.pill.dto.PillDto;
+
+@Controller
+public class PillController {
+	
+	
+	private static final Logger logger = LoggerFactory.getLogger(PillDto.class);
+	
+	
+	@RequestMapping("/pillrequest.do")
+	public String pillRequest() {
+		
+		logger.info("pillrequest.jsp");
+		
+		return "pillRequest";
+	}
+
+}

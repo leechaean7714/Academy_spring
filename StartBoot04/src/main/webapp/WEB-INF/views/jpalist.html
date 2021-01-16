@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<!-- 여기서 찾기 https://www.thymeleaf.org/doc/tutorials/3.0/usingthymeleaf.html -->
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+
+	<h1 align="center">LIST</h1>
+
+	<table border="1" style="margin-left: auto; margin-right: auto;">
+		<col width="50">
+		<col width="100">
+		<col width="300">
+		<col width="100">
+		<tr>
+			<th>번호</th>
+			<th>작성자</th>
+			<th>제목</th>
+			<th>작성일</th>
+
+		</tr>
+		<tr th:if="${list.size()==0}">
+			<td colspan="4">---------------no comments---------------</td>
+		</tr>
+		<tr th:unless="${list.size()==0}" th:each="dto:${list}">
+			<td th:text="${dto.myno}">myno</td>
+			<td th:text="${dto.myname}">myname</td>
+			<td><a th:href="|@{/member/detail}?myno=${dto.myno}|"
+				th:text="${dto.mytitle}">mytitle</a></td>
+			<td th:text="${dto.mydate}">mydate</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="right">
+			<input type="button" th:value="insert" onclick="location.href='insertform'">
+			</td>
+		</tr>
+
+
+	</table>
+
+</body>
+</html>

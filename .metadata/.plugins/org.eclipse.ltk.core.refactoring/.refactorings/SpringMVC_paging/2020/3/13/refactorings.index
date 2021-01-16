@@ -1,0 +1,3 @@
+1585213464437	Rename resource 'root-context.xml'
+1585213468183	Move 'applicationContext.xml' to 'appServlet'
+1585213884885	Move 'paging.sql' to 'sqls'

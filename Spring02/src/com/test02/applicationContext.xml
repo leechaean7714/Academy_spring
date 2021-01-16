@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="my" class="com.test02.Address"></bean>
+	
+	<bean id="friend01" class="com.test02.Address">
+	 <constructor-arg>
+	  <value>kimyoonhee</value><!-- 순서가 중요 -->
+	 </constructor-arg>
+	 <constructor-arg value="강남구"></constructor-arg>
+	 <constructor-arg value="090-0000-0000"></constructor-arg>
+	</bean>
+	
+	
+	<bean id="friend02" class="com.test02.Address">
+	<constructor-arg>
+		<value>김영우</value>
+	</constructor-arg>
+	<constructor-arg>
+		<value>인천</value>
+	</constructor-arg>
+	<constructor-arg>
+		<value>010-111-2222</value>
+	</constructor-arg>
+	</bean>
+
+
+</beans>

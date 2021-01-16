@@ -1,0 +1,4 @@
+1587023245979	Move 'test.css' to 'css'
+1587023531843	Move 'db' to 'resources'
+1587023560622	Rename resource 'myboarad.sql'
+1587023867012	Rename package 'com.boot.jdbc.dto'

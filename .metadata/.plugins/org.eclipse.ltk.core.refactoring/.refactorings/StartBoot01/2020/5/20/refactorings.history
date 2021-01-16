@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move &apos;drag02.jsp&apos; to &apos;StartBoot01&apos;" description="Move &apos;drag02.jsp&apos; to &apos;StartBoot01&apos;" destination="/StartBoot01" element1="/SpringTest/src/main/webapp/WEB-INF/views/drag02.jsp" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1589595013091" updateReferences="true"/>
+</session>

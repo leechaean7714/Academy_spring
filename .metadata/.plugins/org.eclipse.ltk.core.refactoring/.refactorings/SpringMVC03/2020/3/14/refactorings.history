@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;sqls&apos; to &apos;SpringMVC05_update_jdbc/src/main/resources&apos;&#x0D;&#x0A;- Original project: &apos;SpringMVC03&apos;&#x0D;&#x0A;- Destination element: &apos;SpringMVC05_update_jdbc/src/main/resources&apos;&#x0D;&#x0A;- Original element: &apos;SpringMVC03/src/main/resources/sqls&apos;" description="Copy package" destination="=SpringMVC05_update_jdbc/src\/main\/resources" element1="/src\/main\/resources&lt;sqls" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1585638047066" version="1.0"/>
+</session>

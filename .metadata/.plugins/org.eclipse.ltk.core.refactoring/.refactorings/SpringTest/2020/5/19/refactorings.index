@@ -1,0 +1,12 @@
+1588813535253	Rename type 'translation'
+1588815588388	Rename resource 'translate.jsp'
+1588820276381	Rename resource 'translateReponse.jsp'
+1588820904248	Delete element
+1588820908999	Delete element
+1588820913121	Delete element
+1588834789119	Delete element
+1588835325682	Rename package 'com.test.model.translation.dto'
+1588846024176	Delete element
+1588896921248	Rename resource 'translte'
+1588928206736	Move 'drag02.jsp' to 'views'
+1588928220155	Rename resource 'dropTest.jsp'

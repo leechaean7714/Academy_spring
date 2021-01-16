@@ -1,0 +1,24 @@
+1588075900894	Rename resource 'root-context.xml'
+1588075904744	Move 'applicationContext.xml' to 'appServlet'
+1588076384092	Delete element
+1588105127372	Move 'img01.png' to 'resources'
+1588105137390	Delete element
+1588105500948	Move 'img01.png' to 'img'
+1588114429281	Move 'img01.png' to 'resources'
+1588115107666	Move 'img01.png' to 'img'
+1588115350842	Move 'img' to 'resources'
+1588115517844	Delete element
+1588115762384	Move 'img01.png' to 'image'
+1588115769298	Delete element
+1588116055480	Move 'image' to 'WEB-INF'
+1588116092235	Move 'image' to 'resources'
+1588116115545	Move 'resources' to 'WEB-INF'
+1588116172596	Move 'image' to 'resources'
+1588116445143	Rename resource 'image'
+1588116451184	Move 'images' to 'resource'
+1588116457346	Rename resource 'resource'
+1588119601571	Move 'img01.png' to 'images'
+1588119685941	Delete element
+1588120332225	Move 'img01.png' to 'images'
+1588123952647	Move 'images' to 'webapp'
+1588142968461	Move 'images' to 'resources'

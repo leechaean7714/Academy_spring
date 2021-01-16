@@ -1,0 +1,11 @@
+1584946718363	Move 'root-context.xml' to 'appServlet'
+1584946738271	Rename resource 'root-context.xml'
+1584946753635	Rename resource 'applicationcontext.xml'
+1584948642551	Delete element
+1584953000481	Delete element
+1584957395366	Move 'boardlist.jsp' to 'views'
+1584957860108	Rename resource 'boardlist.jsp'
+1584960413021	Rename resource 'mvcwrite.jsp'
+1584962469502	Rename resource 'mvcinsert.jsp'
+1584975045988	Delete element
+1585045963692	Delete element

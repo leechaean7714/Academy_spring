@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="favoriteFood" name="favoriteFood" class="com.test03.Food">
+		<property name="name" value="crab" />
+		<property name="price" value="200000" />
+	</bean>
+
+	<!-- byType 이 되려면 삭제하고 해보기 -->
+	 <bean id="unFavoriteFood" name="unFavoriteFood" class="com.test03.Food">
+		<constructor-arg value="doorian" />
+		<constructor-arg value="10000" />
+	</bean> 
+
+	<bean id="myFood" class="com.test03.MyFood" autowire="default"/>
+
+	
+
+	<!-- byName: setter와 같은 이름(id,name)의 bean 이 있으면 자동 할당.
+	 
+	     byType(에러가 났음):setter 의 parameter type과 같은 type의 bean이 있으면 자동할당.
+	       
+	     constructor:생성자의 parameter type과 같은 type의 bean이 있으면 자동 할당.
+	     (만약 type이 여러개이면 id나 name으로 할당. 할당할 객체가 없다면 기본 생성자)
+	      
+		 default:생성자에 할당할 타입이 있는지 확인 후(constructor)->없으면, 
+		 setter parameter에 할당할 type 있는지 확인(byType) 
+		 @Autowired라는 어노테이션이 이 방식으로 동작. -->
+</beans>

@@ -1,0 +1,47 @@
+spring upgrade
+1. web.xml:2.5->4.0(new dynamic web project->web module 4.0생성 -> 복사)
+2.pom.xml
+ java:1.6->1.8
+ springframework:3.1.1->x.x.x.
+ servlet-api:2.5->4.0.1(servlet-api->javax.servlet-api)
+ jsp-api:2.1->2.3.3(jsp-api -> javax.servlet.jsp-api)
+maven-compiler-plugin:source/target 1.6->1.8
+
+3.project facet
+  dynamic web modul:2.5->4.0
+  java :1.6->1.8
+
+4.maven update
+
+버전 업데이트 주의 사항 잭슨 시리즈 못씀(버전 마다 다른 것을 쓴다.)
+
+
+_jdbc
+5.pom.xml: spring-jdbc, ojdbc6 넣어주기.
+6.web.xml:applicationContext.xml,*.do, encodingFilter
+7.src/main/resources/sqls
+  -jdbc.sql
+  -db.properties
+ 8.WEB-INF/spring/appServlet/applicationContext.xml
+ 9.dto,dao,biz,controller
+ 
+ _javaconfig
+ 10. com/mvc/update/config/ApplicationConfig
+ 11. com/mvc/update/config/ServletConfig(impl WebMvcConfigurer)
+ 12. web.xml에 알려주기
+ 13. /WEB-INF/SPRING폴더 삭제하고 실행
+ 14. web.xml 전체 삭제
+     com/mvc/update/config/WebConfig(impl WebApplicationInitializer)
+
+
+
+
+
+
+
+
+
+
+
+
+

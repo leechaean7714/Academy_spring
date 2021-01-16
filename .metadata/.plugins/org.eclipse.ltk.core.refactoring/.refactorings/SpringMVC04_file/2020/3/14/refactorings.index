@@ -1,0 +1,8 @@
+1585554668756	Rename resource 'root-context.xml'
+1585554672957	Move 'applicationContext.xml' to 'appServlet'
+1585555219489	Rename package 'com.mvc.updowm.validate'
+1585555446242	Rename type 'FileValidatore'
+1585560090536	Move 'index.jsp' to 'webapp'
+1585560135053	Delete element
+1585566422793	Delete element
+1585608464388	Delete element

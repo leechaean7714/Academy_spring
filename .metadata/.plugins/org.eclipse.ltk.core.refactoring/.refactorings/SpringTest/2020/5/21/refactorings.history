@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;SpringTest/src/main/webapp/WEB-INF/views/childlist.jsp&apos; to &apos;childrenlist.jsp&apos;" description="Rename resource &apos;childlist.jsp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/webapp/WEB-INF/views/childlist.jsp" name="childrenlist.jsp" stamp="1589706311140" updateReferences="true"/>
+</session>

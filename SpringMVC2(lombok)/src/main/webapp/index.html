@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<h1>INDEX</h1>
+	<a href="home.do">home</a>
+	<br>
+	
+	
+	<a href="command.do?name=spring&addr=서울&phone=010-1111-1111">get</a>
+	<br>
+	<form action="command.do" method="post">
+		<table border="1">
+			<tr>
+				<th>name</th>
+				<th>addr</th>
+				<th>phone</th>
+			</tr>
+			<tr>
+				<td><input type="text" name="name"></td>
+				<td><input type="text" name="addr"></td>
+				<td><input type="text" name="phone"></td>
+			</tr>
+			<tr>
+				<td colspan="3"><input type="submit" value="post"></td>
+			</tr>
+		</table>
+	</form>
+	
+	<br>
+	
+	<a href="void.do">void</a>
+
+</body>
+</html>

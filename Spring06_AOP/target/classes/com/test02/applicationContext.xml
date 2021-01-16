@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- cc:관심사 -->
+	<bean id="woman" class="com.test02.Woman" />
+	<bean id="man" class="com.test02.Man" />
+
+	<!-- ccc:공통 관심 사항 -->
+
+	<bean id="myAdvice" class="com.test02.MyAspect" />
+
+	<!-- proxy 객체 생성 -->
+	<!-- 타켓을 호출하면 자기가 타겟인 척 호출되어 타겟에 지정된 
+                어드바이스를 첨가해서 타겟에게 건네줌. 그러면 타겟은 그걸 뿌림. -->
+ 
+	<bean
+		class="org.springframework.aop.framework.autoproxy.DefaultAdvisorAutoProxyCreator"></bean><!-- DefaultAdvisorAutoProxyCreator 프록시 객체를 만듦 타겟을 만들어 준다. -->
+	
+	<!-- advisor(aspect):advice+pointcut -->
+	<bean id="myAdvisor"
+		class="org.springframework.aop.aspectj.AspectJExpressionPointcutAdvisor">
+		<property name="advice" ref="myAdvice" />
+		<property name="expression" value="execution(public * *(..))"/>
+		<!-- advice가 어떤 cc한테 연결 될지 알려주는것. -->
+	</bean>
+
+</beans>

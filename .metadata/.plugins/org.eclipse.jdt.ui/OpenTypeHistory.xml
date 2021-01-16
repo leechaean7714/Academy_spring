@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+<typeInfo handle="=Spring02/src&lt;com.test01{MessageBean.java[MessageBean" modifiers="513" timestamp="1584349640054"/>
+<typeInfo handle="=Spring03/src&lt;com.test01{AbstractTest.java[AbstractTest" modifiers="1025" timestamp="1584359227373"/>
+<typeInfo handle="=Spring03/src&lt;com.test03{Emp.java[Emp" modifiers="1" timestamp="1584660801753"/>
+<typeInfo handle="=Spring04/C:\/Program Files\/Java\/jre1.8.0_231\/lib\/rt.jar&lt;javax.annotation.processing(Messager.class[Messager" modifiers="1537" timestamp="1573378762535"/>
+<typeInfo handle="=Spring06_AOP/C:\/Program Files\/Java\/jre1.8.0_231\/lib\/rt.jar&lt;java.security.acl(Permission.class[Permission" modifiers="1537" timestamp="1573378762535"/>
+<typeInfo handle="=Spring06_AOP/src&lt;com.test02{Person.java[Person" modifiers="513" timestamp="1584605014533"/>
+<typeInfo handle="=Spring06_AOP/C:\/Program Files\/Java\/jre1.8.0_231\/lib\/rt.jar&lt;javax.management(PersistentMBean.class[PersistentMBean" modifiers="1537" timestamp="1573378762535"/>
+<typeInfo handle="=Spring06_AOP/src&lt;com.test03{Person.java[Person" modifiers="513" timestamp="1584611879967"/>
+<typeInfo handle="=Spring06_AOP/C:\/Users\/USER\/.m2\/repository\/org\/aspectj\/aspectjweaver\/1.9.5\/aspectjweaver-1.9.5.jar&lt;org.aspectj.lang.reflect(PerClause.class[PerClause" modifiers="1537" timestamp="1584604585116"/>
+<typeInfo handle="=Spring06_AOP/src&lt;com.test04{Person.java[Person" modifiers="513" timestamp="1584612927700"/>
+<typeInfo handle="=Spring06_AOP/C:\/Users\/USER\/.m2\/repository\/org\/aspectj\/aspectjrt\/1.9.5\/aspectjrt-1.9.5.jar&lt;org.aspectj.lang.reflect(PerClause.class[PerClause" modifiers="1537" timestamp="1584604578169"/>
+<typeInfo handle="=Spring06_AOP/src&lt;com.test05{Person.java[Person" modifiers="513" timestamp="1584613288632"/>
+<typeInfo handle="=Spring06_AOP/src&lt;com.test06{Person.java[Person" modifiers="513" timestamp="1584615497651"/>
+<typeInfo handle="=Spring03/C:\/Program Files\/Java\/jre1.8.0_231\/lib\/rt.jar&lt;javax.swing.text(TableView.class[TableView" modifiers="1057" timestamp="1573378762535"/>
+<typeInfo handle="=Spring06_AOP/src&lt;com.test07{MessageBean.java[MessageBean" modifiers="513" timestamp="1584618668630"/>
+<typeInfo handle="=Spring06_TestAop01_Test/src&lt;com.test01{Human.java[Human" modifiers="513" timestamp="1513914728000"/>
+<typeInfo handle="=SpringMVC03/src\/main\/java&lt;com.mvc.upgrade.model.dao{BoardDao.java[BoardDao" modifiers="513" timestamp="1585064134949"/>
+<typeInfo handle="=SpringMVC03/src\/main\/java&lt;com.mvc.upgrade.model.biz{BoardBiz.java[BoardBiz" modifiers="513" timestamp="1584965944976"/>
+<typeInfo handle="=SpringMVCEx01/src\/main\/java&lt;com.mvc.ex01.model.biz{MyBiz.java[MyBiz" modifiers="513" timestamp="1585045709924"/>
+<typeInfo handle="=SpringMVCEx01/src\/main\/java&lt;com.mvc.ex01.model.dao{MyDao.java[MyDao" modifiers="513" timestamp="1585045709894"/>
+<typeInfo handle="=SpringMVC05_update_jdbc/src\/main\/java&lt;com.mvc.update.model.biz{JdbcBiz.java[JdbcBiz" modifiers="513" timestamp="1585642162049"/>
+<typeInfo handle="=SpringMVC05_update_jdbc/src\/main\/java&lt;com.mvc.update.model.dao{JdbcDao.java[JdbcDao" modifiers="513" timestamp="1585642162097"/>
+<typeInfo handle="=SpringMVC05_update_jdbc/C:\/Users\/USER\/.m2\/repository\/oracle\/ojdbc6\/11.2.0.3\/ojdbc6-11.2.0.3.jar&lt;oracle.sql.converter(JdbcCharacterConverters.class[JdbcCharacterConverters" modifiers="1537" timestamp="1584946083525"/>
+<typeInfo handle="=SpringMVC05_update_jdbc_javaconfig/C:\/Users\/USER\/.m2\/repository\/org\/springframework\/spring-web\/5.2.5.RELEASE\/spring-web-5.2.5.RELEASE.jar&lt;org.springframework.web(WebApplicationInitializer.class[WebApplicationInitializer" modifiers="1537" timestamp="1585571624220"/>
+<typeInfo handle="=StartBoot02/src\/main\/java&lt;com.boot.jdbc.model.biz{MyBiz.java[MyBiz" modifiers="513" timestamp="1587024376339"/>
+<typeInfo handle="=SpringTest/src\/main\/java&lt;com.test.module.kingthejoy.child.biz{ChildBiz.java[ChildBiz" modifiers="513" timestamp="1590215004907"/>
+<typeInfo handle="=SpringTest/src\/main\/java&lt;com.test.module.kingthejoy.child.dao{ChildDao.java[ChildDao" modifiers="513" timestamp="1590215041700"/>
+<typeInfo handle="=SpringTest/C:\/Program Files\/Java\/jre1.8.0_231\/lib\/rt.jar&lt;javax.swing.tree(TreeCellRenderer.class[TreeCellRenderer" modifiers="1537" timestamp="1573378762535"/>
+<typeInfo handle="=SpringTest/C:\/Program Files\/Java\/jre1.8.0_231\/lib\/rt.jar&lt;javax.swing.event(TreeExpansionListener.class[TreeExpansionListener" modifiers="1537" timestamp="1573378762535"/>
+<typeInfo handle="=SpringTest/src\/main\/java&lt;com.test.module.treegrid.dao{TreeGridDao.java[TreeGridDao" modifiers="513" timestamp="1599207625601"/>
+</typeInfoHistroy>

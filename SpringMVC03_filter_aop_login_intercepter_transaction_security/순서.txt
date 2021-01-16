@@ -1,0 +1,89 @@
+    SpringMVC03
+1.  pom.xml:ojdbc6(+repository),mybatis,mybatis-spring,commoms-dbcp,spring-orm을 설치
+2.  web.xml:applicationContext.xml 변경, mapping(*,do), encoding filter 설정
+3.  /WEB-INF/spring/sqls/myboard.sql
+4.  DTO,DAO,BIZ,controller
+5.  src/main/resources/mybatis/board-mapper.xml
+6.  src/main/resources/mybatis/db.properties
+7.  /web-inf/spring/sqls/config.xml
+8.  applicationContext.xml, servlet-context.xml 을 가지고 놀것이다.
+
+_filter
+9.  com/mvc/upgrade/common/filter/LogFilter(impl javax.servlet.Filter)
+10. web.xml:filter
+
+_aop
+11. pom.xml : aspectjweaver, aspectjrt
+12. com/mvc/upgrade/common/aop/LogAop
+13. WEB-INF/spring/appServlet/aop-context.xml
+14. web.xml : aop-context.xml 추가(init-param)
+15. src/main/resources/log4j.xml(logger추가 및 log level변경 - trace)
+16. pom.xml:jackson-core-asl,jsckson-mapper-asl(spring 4.x 이후부터는 변경된)
+17.web-inf/spring/sqls/mymember.sql
+
+_login
+18.dto,dao,biz,controller
+19.src/main/resources/mybatis/member-mapper.xml
+20.web-inf/spring/sqls/config.xml
+
+_intercepter
+21. com/mvc/upgrade/common/intercepter/LoginIntercepter(impl HandlerIntercepter)
+22. servlet-context.xml:인터셉터 추가
+
+_transaction
+
+23. (Board)dao,biz,controller 에 무엇인가 추가.
+24. servlet-context.xml :tx(namespace)추가
+25.applicationContext.xml:transactionManager
+
+_security
+26. pom.xml:spring-security-web
+27. /WEB-INF/spring/appServlet/secutity-context.xml
+28. web.xml:security-context.xml 추가
+
+
+
+
+
+
+
+
+
+spring version upgrade 방법
+1.web.xml:2.5->4.0
+(dynamic web project 만들면서 web module 설정을 4.0으로 생성->생성된 web.xml 부분 복사해서 스프링에 붙여넣기)
+
+2.pom.xml
+java:1.6->1.8
+springframework-version:3.1.1->원하는 버전
+servlet-api:2.5->4.0.1(servlet-api->javax.servlet-api)
+jsp-api:2.1->2.3.3(jsp-api->javax.servlet.jsp-api)
+maven-compiler-plugin:source/target 둘다 1.6->1.8
+
+3.project facet
+dynamic web module 2.5->4.0
+java 1.6->1.8
+
+4.maven update
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

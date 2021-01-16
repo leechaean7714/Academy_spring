@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:c="http://www.springframework.org/schema/c"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<!--홍길동 250 개발 :생성자만사용 -->
+
+<!-- 홍길동,250,개발팀 -->
+<!-- c:constructor-arg -->
+<bean id="hong" class="com.test05.Emp" c:name="홍길동" c:salary="250">
+	
+</bean>
+<bean id="honggd" class="com.test05.Developer" c:emp-ref="hong" c:dept="개발팀">
+
+</bean>
+
+<!-- 이순신,200,기술팀 -->
+<!-- p:property -->
+<bean id="lee" class="com.test05.Emp"  p:name="이순신" p:salary="200">
+	
+</bean>
+<bean id="leess" class="com.test05.Engineer" p:emp-ref="lee" p:dept="기술팀">
+	
+</bean>
+
+</beans>

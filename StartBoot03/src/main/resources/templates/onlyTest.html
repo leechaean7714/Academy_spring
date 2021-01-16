@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<html xmlns:th="http://www.thymeleaf.org"></html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<h1 th:text="${name}">name</h1>
+	<a href="/">index</a>
+
+	<h1 th:text="${name}"></h1>
+
+	<p th:text="${#calendars.format(#calendars.createNow(),'')}"></p>
+	<p th:text="${#numbers.formatInteger(3000.1234,4)}" />
+	<p th:text="${#strings.toUppercase('hello,world')}"></p>
+
+
+	<p th:text="|Hello, ${name}|"></p>
+	<p th:text="${dto.subject}"></p>
+
+	<div th:object="${dto}">
+		<p th:text="*{subject}"></p>
+	</div>
+
+	<table border="1">
+		<tr>
+			<th>subject</th>
+			<th>seq</th>
+		</tr>
+		<tr th:each="dto:${list}">
+			<td th:text="*{dto.subject}"></td>
+			<td th:text="*{dto.seq}"></td>
+		</tr>
+	</table>
+
+	<table border="1">
+		<tr th:if="${list} eq null">
+			<td></td>
+		</tr>
+		<tr th:unless ="${list} eq null"></tr>
+	</table>
+	
+	<div th:each="num:${#numbers.sequence(1,3)}">
+		<th:block th:switch ="${num}">
+			<p th:case="1" th:text="|this is ${num}!|"/>
+			<p th:case="2" th:text="|this is ${num}!!|"/>
+			<p th:case="3" th:text="|this is ${num}!!!|"/>
+		</th>
+	</div>
+	
+	<a th:href="@{index.html}"></a>
+	<a th:href="@{util}"/>
+	
+	<h1 th:text="|Hello,${param.id}|"></h1>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+
+
+
+
+</body>
+</html>

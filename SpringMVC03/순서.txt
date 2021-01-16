@@ -1,0 +1,9 @@
+    SpringMVC03
+1.  pom.xml:ojdbc6(+repository),mybatis,mybatis-spring,commoms-dbcp,spring-orm을 설치
+2.  web.xml:applicationContext.xml 변경, mapping(*,do), encoding filter 설정
+3.  /WEB-INF/spring/sqls/myboard.sql
+4.  DTO,DAO,BIZ,controller
+5.  src/main/resources/mybatis/board-mapper.xml
+6.  src/main/resources/mybatis/db.properties
+7.  /web-inf/spring/sqls/config.xml
+8.  applicationContext.xml, servlet-context.xml 을 가지고 놀꺼당.

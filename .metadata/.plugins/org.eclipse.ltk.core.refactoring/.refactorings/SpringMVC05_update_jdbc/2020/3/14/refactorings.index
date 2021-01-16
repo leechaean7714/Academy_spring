@@ -1,0 +1,5 @@
+1585637139174	Rename resource 'root-context.xml'
+1585637148168	Move 'applicationContext.xml' to 'appServlet'
+1585639803312	Delete element
+1585640099368	Rename package 'com.mvc.update.model.controller'
+1585647634337	Delete element

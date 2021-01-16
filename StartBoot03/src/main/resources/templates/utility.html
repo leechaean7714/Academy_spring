@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+    <!--  #message 표시 -->
+	<p th:text="${#calendars.format(#calendars.createNow(),'yyyy-MM-dd HH:mm')}">#date objects</p>
+	<p th:text="${#numbers.formatInteger(3000.1234,4)}">#number objects</p>
+	<p th:text="${#strings.toUpperCase('hello,springboot')}">#strings objects</p>
+
+</body>
+</html>

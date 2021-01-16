@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+</head>
+<body>
+
+	<h1 align="center">글보기</h1>
+	<table border="1" style="margin-left: auto; margin-right: auto">
+		<tr>
+			<th>작성자</th>
+			<td th:text="${dto.myname}">myname</td>
+		</tr>
+		<tr>
+			<th>제목</th>
+			<td th:text="${dto.mytitle}">mytitle</td>
+		</tr>
+		<tr>
+			<th>내용</th>
+			<td><textarea th:text="${dto.mycontent}" rows="10" cols="60"
+					readonly="readonly">mycontent</textarea></td>
+		</tr>
+		<tr>
+			<td colspan="2" align="right">
+			<input type="button" value="update"  th:onclick="|javascript:upd('${dto.myno}')|"> 
+			<input type="button" value="delete" th:onclick="|javascript:del('${dto.myno}')|">
+				<input type="button" value="cancle" onclick="location.href='list'">
+			</td>
+		</tr>
+	</table>
+	<script type="text/javascript">
+
+
+	function upd(no) {
+		alert("수정");
+		location.href="/member/updateform?myno="+encodeURI(no);
+		
+
+	}
+	
+	function del(no){
+		alert("삭제");
+		location.href="/member/delete?myno="+encodeURI(no);
+		
+	}
+</script>
+
+
+</body>
+</html>
